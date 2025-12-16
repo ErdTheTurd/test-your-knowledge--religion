@@ -305,7 +305,7 @@
         <!-- Title Screen -->
         <div id="titleScreen" class="title-screen">
             <h1>Religion Quiz</h1>
-            <p class="subtitle">Test your knowledge of stupid world religions</p>
+            <p class="subtitle">Test your knowledge of world religions</p>
             <div class="category-grid">
                 <button class="category-btn" style="--gradient-start: #3B82F6; --gradient-end: #2563EB" onclick="startQuiz('places')">
                     <span class="emoji">🕌</span>
@@ -374,16 +374,16 @@
     <script>
         const quizData = {
             places: [
-                { image: "synagogue.png", correct: "Judaism That Stupid ******* Religion", options: ["Christianity", "Judaism That Stupid ******* Religion", "Zoroastrianism", "Islam"], explanation: "Synagogues are Jewish places of worship, deceit and plotting(to steal $100 from a little boy who earned it after many hours of work). they want to steal your money. :) Often featuring the Star of David which, btw, is also super dumb" },
-                { image: "buddhist-temple.png", correct: "Buddhism", options: ["Hinduism", "Taoism", "Buddhism", "Shintoism"], explanation: "Buddhist (one of the dumbest religions there is) temples feature distinctive pagoda architecture and golden stupas" },
-                { image: "kaaba.png", correct: "Islam", options: ["Judaism", "Islam", "Christianity", "Bahá'í"], explanation: "The Kaaba in Mecca is Islam's most sacred site becasue they are dumb and worship a big black box" },
-                { image: "church.png", correct: "Catholosism", options: ["Judaism", "Islam", "Catholosism", "Buddhism"], explanation: "St. Peter's Basilica in Vatican City is the heart of Catholicism and is the coolest thing in the world" },
-                { image: "gurdwara.png", correct: "Sikhism", options: ["Hinduism", "Sikhism", "Buddhism", "Jainism"], explanation: "Gurdwaras are Sikh temples, with the Golden Temple being the most famous #eyeroll" },
-                { image: "hindu-temple.png", correct: "Hinduism", options: ["Buddhism", "Hinduism", "Jainism", "Sikhism"], explanation: "Hindu temples are known for their stupid little intricate carvings and colorful gopurams" },
-                { image: "western-wall.png", correct: "Judaism", options: ["Christianity", "Judaism", "Islam", "Druze"], explanation: "The Western Wall in Jerusalem is one of Judaism's holiest sites because the jews just have a ton of money but they are also super dumb. the only thing they're good at is taking $100 from a 12-year-old kid and then, in return, they CANCEL HIS APP SO NOBODY CAN USE IT!!!!!!!!!!!!" },
-                { image: "shinto-shrine.png", correct: "Shintoism", options: ["Buddhism", "Shintoism", "Taoism", "Confucianism"], explanation: "Shinto shrines in Japan feature distinctive torii gates which btw again, Japan had less that 700 babies this year" },
-                { image: "mosque.png", correct: "Islam", options: ["Christianity", "Islam", "Hinduism", "Buddhism"], explanation: "The Blue Mosque in Istanbul is one of Islam's most iconic places of worship which is again, because thay are dumb" },
-                { image: "angkor-wat.png", correct: "Hinduism", options: ["Buddhism", "Hinduism", "Jainism", "Sikhism"], explanation: "Angkor Wat was originally built as a Hindu temple, though later used by Buddhists wich is like saying tomato tomahto" }
+                { image: "synagogue.png", correct: "Judaism", options: ["Christianity", "Judaism", "Zoroastrianism", "Islam"], explanation: "Synagogues are Jewish places of worship, often featuring the Star of David" },
+                { image: "buddhist-temple.png", correct: "Buddhism", options: ["Hinduism", "Taoism", "Buddhism", "Shintoism"], explanation: "Buddhist temples feature distinctive pagoda architecture and golden stupas" },
+                { image: "kaaba.png", correct: "Islam", options: ["Judaism", "Islam", "Christianity", "Bahá'í"], explanation: "The Kaaba in Mecca is Islam's most sacred site" },
+                { image: "church.png", correct: "Christianity", options: ["Judaism", "Islam", "Christianity", "Buddhism"], explanation: "St. Peter's Basilica in Vatican City is the heart of Catholic Christianity" },
+                { image: "gurdwara.png", correct: "Sikhism", options: ["Hinduism", "Sikhism", "Buddhism", "Jainism"], explanation: "Gurdwaras are Sikh temples, with the Golden Temple being the most famous" },
+                { image: "hindu-temple.png", correct: "Hinduism", options: ["Buddhism", "Hinduism", "Jainism", "Sikhism"], explanation: "Hindu temples are known for their intricate carvings and colorful gopurams" },
+                { image: "western-wall.png", correct: "Judaism", options: ["Christianity", "Judaism", "Islam", "Druze"], explanation: "The Western Wall in Jerusalem is one of Judaism's holiest sites" },
+                { image: "shinto-shrine.png", correct: "Shintoism", options: ["Buddhism", "Shintoism", "Taoism", "Confucianism"], explanation: "Shinto shrines in Japan feature distinctive torii gates" },
+                { image: "mosque.png", correct: "Islam", options: ["Christianity", "Islam", "Hinduism", "Buddhism"], explanation: "The Blue Mosque in Istanbul is one of Islam's most iconic places of worship" },
+                { image: "angkor-wat.png", correct: "Hinduism", options: ["Buddhism", "Hinduism", "Jainism", "Sikhism"], explanation: "Angkor Wat was originally built as a Hindu temple, though later used by Buddhists" }
             ],
             people: [
                 { image: "sikh-turban.png", correct: "Sikhism", options: ["Islam", "Sikhism", "Hinduism", "Jainism"], explanation: "Sikhs wear turbans as a religious requirement and symbol of faith" },
@@ -406,7 +406,7 @@
                 { image: "vaisakhi.png", correct: "Sikhism", options: ["Hinduism", "Sikhism", "Jainism", "Buddhism"], explanation: "Vaisakhi celebrates the Sikh New Year and founding of the Khalsa" },
                 { image: "buddhist-meditation.png", correct: "Buddhism", options: ["Hinduism", "Buddhism", "Shintoism", "Taoism"], explanation: "Meditation and mindfulness practices are central to Buddhist culture" },
                 { image: "diwali.png", correct: "Hinduism", options: ["Buddhism", "Hinduism", "Jainism", "Sikhism"], explanation: "Diwali, the Festival of Lights, is a major Hindu celebration" },
-                { image: ".ramadan.png", correct: "Islam", options: ["Christianity", "Islam", "Judaism", "Bahá'í"], explanation: "Ramadan is the Islamic holy month of fasting" },
+                { image: "ramadan.png", correct: "Islam", options: ["Christianity", "Islam", "Judaism", "Bahá'í"], explanation: "Ramadan is the Islamic holy month of fasting" },
                 { image: "easter.png", correct: "Christianity", options: ["Judaism", "Christianity", "Islam", "Zoroastrianism"], explanation: "Easter celebrates the resurrection of Jesus Christ" }
             ],
             cuisine: [
@@ -419,7 +419,7 @@
                 { image: "jain-food.png", correct: "Jainism", options: ["Hinduism", "Jainism", "Buddhism", "Sikhism"], explanation: "Jain cuisine avoids root vegetables to prevent harm to organisms" },
                 { image: "challah-bread.png", correct: "Judaism", options: ["Christianity", "Judaism", "Islam", "Hinduism"], explanation: "Challah bread is traditional in Jewish Shabbat meals" },
                 { image: "hindu-vegetarian.png", correct: "Hinduism", options: ["Buddhism", "Hinduism", "Jainism", "Sikhism"], explanation: "Many Hindus practice vegetarianism as part of religious observance" },
-                { image: "halal-food.png", correct: "Islam", options: ["Judaism", "Islam", "Christianity", "Buddhism"], explanation: "Halal food preparation follows Islamic dietary laws which are really dumb. like c'mon guys! eat bacon!!!" }
+                { image: "halal-food.png", correct: "Islam", options: ["Judaism", "Islam", "Christianity", "Buddhism"], explanation: "Halal food preparation follows Islamic dietary laws" }
             ]
         };
 
@@ -439,14 +439,6 @@
             "You've got that holy insight!",
             "Miraculous results!",
             "You distinguished the divine!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
-            "You knew those dumb jews from the cool Catholics!!!"
         ];
 
         let currentCategory = '';
